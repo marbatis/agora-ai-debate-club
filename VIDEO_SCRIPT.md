@@ -197,12 +197,26 @@ Create a single Keynote presentation with these slides:
    - Large text with URL: github.com/marbatis/agora-ai-debate-club
    - "Built for Kaggle AI Agents Intensive"
 
-### Keynote Tips for Mac:
+### Getting Started with Keynote:
+
+**Creating Your Presentation:**
+
+1. **Open Keynote** (in Applications folder or use Spotlight: Cmd+Space, type "Keynote")
+2. **Click "New Document"** (or File → New)
+3. **Choose a theme**:
+   - Recommended: **"White"** (clean, minimal) or **"Basic"** (professional)
+   - Avoid busy themes - you want viewers focused on content, not design
+4. **Theme chooser will show slide size** - Ensure it's **"Widescreen"** (16:9 ratio)
+   - If not, change later: Document tab (top right) → Slide Size → Widescreen
+5. **Save immediately**: File → Save (Cmd+S)
+   - Filename: `AGORA-Debate-Video.key`
+   - Location: `/Users/marcelosilveira/MyGit_ProjectA/agora-ai-debate-club/`
+   - Keynote files have `.key` extension
 
 **Setup:**
-- Open Keynote → "New Document" → Choose "White" or "Basic" theme (clean, professional)
-- Set slide size: Keynote Preferences → "Widescreen (16:9)" for better video format
+- Set slide size: Document tab (top right) → Slide Size → "Widescreen" (16:9) for better video format
 - Use consistent fonts: SF Pro Display (macOS native) or Helvetica
+- Keynote auto-saves, but use Cmd+S frequently
 
 **Design Guidelines:**
 - **Keep it minimal** - Max 3 bullet points per slide
