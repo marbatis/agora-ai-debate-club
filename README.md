@@ -129,9 +129,49 @@ This project demonstrates **5+ key AI agent concepts** from the Google AI Agents
 
 ## 🎬 Demo
 
-### Web Interface
-![Web Interface](assets/screenshots/web-interface.png)
-*Beautiful web interface for running interactive debates*
+**🎥 [Watch the Full Video Demo](https://youtu.be/jfo-z-_Le2I)** - 3-minute walkthrough of the system in action!
+
+### Screenshots
+
+<details>
+<summary><b>1. Web Interface - Input Form</b></summary>
+
+![Web Interface Input](assets/screenshots/Screenshot%202025-11-22%20at%2012.56.50%E2%80%AFPM.png)
+*Enter your debate topic and click "Start Debate"*
+
+</details>
+
+<details>
+<summary><b>2. Loading State</b></summary>
+
+![Loading State](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.24%E2%80%AFPM.png)
+*Real-time updates while agents generate arguments*
+
+</details>
+
+<details>
+<summary><b>3. Results - Winner Announcement</b></summary>
+
+![Winner Announcement](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.37%E2%80%AFPM.png)
+*Clear winner declaration with final scores*
+
+</details>
+
+<details>
+<summary><b>4. Full Debate Transcript</b></summary>
+
+![Debate Transcript](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.50%E2%80%AFPM.png)
+*Complete transcript showing all arguments and rebuttals*
+
+</details>
+
+<details>
+<summary><b>5. Rubric Score Breakdown</b></summary>
+
+![Rubric Scores](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.59%E2%80%AFPM.png)
+*Detailed scoring across Logic, Factuality, and Persuasion dimensions*
+
+</details>
 
 ### Example Debate Output
 ```json
