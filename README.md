@@ -134,42 +134,42 @@ This project demonstrates **5+ key AI agent concepts** from the Google AI Agents
 ### Screenshots
 
 <details>
-<summary><b>1. Web Interface - Input Form</b></summary>
+<summary><b>1. Input Topic & Start Debate</b></summary>
 
 ![Web Interface Input](assets/screenshots/Screenshot%202025-11-22%20at%2012.56.50%E2%80%AFPM.png)
-*Enter your debate topic and click "Start Debate"*
+*Enter debate topic and click "Start Debate" - agents begin debating*
 
 </details>
 
 <details>
-<summary><b>2. Loading State</b></summary>
+<summary><b>2. Agent A Opening Argument (PRO)</b></summary>
 
-![Loading State](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.24%E2%80%AFPM.png)
-*Real-time updates while agents generate arguments*
-
-</details>
-
-<details>
-<summary><b>3. Results - Winner Announcement</b></summary>
-
-![Winner Announcement](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.37%E2%80%AFPM.png)
-*Clear winner declaration with final scores*
+![Agent A Argument](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.24%E2%80%AFPM.png)
+*Debater Alice presents the PRO position with structured reasoning*
 
 </details>
 
 <details>
-<summary><b>4. Full Debate Transcript</b></summary>
+<summary><b>3. Agent B Opening Argument (CON)</b></summary>
+
+![Agent B Argument](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.37%E2%80%AFPM.png)
+*Debater Blake presents the CON position with counter-arguments*
+
+</details>
+
+<details>
+<summary><b>4. Rebuttals & Full Transcript</b></summary>
 
 ![Debate Transcript](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.50%E2%80%AFPM.png)
-*Complete transcript showing all arguments and rebuttals*
+*Complete debate transcript showing all arguments and rebuttals from both agents*
 
 </details>
 
 <details>
-<summary><b>5. Rubric Score Breakdown</b></summary>
+<summary><b>5. Judge Evaluation & Final Scores</b></summary>
 
-![Rubric Scores](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.59%E2%80%AFPM.png)
-*Detailed scoring across Logic, Factuality, and Persuasion dimensions*
+![Judge Scores](assets/screenshots/Screenshot%202025-11-22%20at%2012.57.59%E2%80%AFPM.png)
+*Judge agent evaluates both sides with rubric scores (Logic, Factuality, Persuasion) and declares winner*
 
 </details>
 
