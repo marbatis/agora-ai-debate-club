@@ -145,33 +145,145 @@
 - Speed up slightly during architecture (most dense section)
 - Slow down for key phrases like "adversarial multi-agent debates" and "structured reasoning system"
 
-### Screen Recording Plan:
+### Keynote Presentation Plan:
 
-1. **[0:00-0:30]** - Title slide with project name, then simple problem/solution visual
-2. **[0:30-1:00]** - Comparison diagram: "Traditional AI" vs "Multi-Agent System"
-3. **[1:00-2:00]** - Architecture diagram (can use the one from assets/screenshots/architecture-diagram.png once created)
-4. **[2:00-2:45]** - Screen recording of demo_client.html with pre-recorded debate or live (risky if slow)
-5. **[2:45-3:00]** - Code snippets or GitHub repo, then end screen
+Create a single Keynote presentation with these slides:
 
-### Visual Assets Needed:
-- Title slide
-- Problem/solution comparison
-- Architecture diagram (create in Excalidraw or Draw.io)
-- Pre-recorded debate results (screenshot or video)
-- End screen with GitHub URL
+1. **Slide 1 - Title** [0:00-0:10]
+   - Title: "AGORA AI Debate Club"
+   - Subtitle: "Multi-Agent Debates with LLM-as-Judge"
+   - Your name + "Kaggle AI Agents Intensive"
 
-### Recording Tools:
-- **Screen recording**: macOS QuickTime Player (Cmd+Shift+5) or Loom
-- **Video editing**: iMovie (Mac), DaVinci Resolve (free), or CapCut
-- **Slides**: Canva (free templates), Google Slides, or Keynote
+2. **Slide 2 - The Problem** [0:10-0:30]
+   - Headline: "The Challenge"
+   - 3 bullet points: Testing AI reasoning, Comparing strategies, Building structured thinking
+   - Visual: Icon of confused person looking at AI output
+
+3. **Slide 3 - Why Multi-Agent?** [0:30-1:00]
+   - Headline: "Traditional AI vs Multi-Agent Debates"
+   - Two columns comparing:
+     - Left: "Single AI" → One perspective, Hard to validate, Confirmation bias
+     - Right: "Multi-Agent" → Adversarial testing, Objective judging, Better reasoning
+   - Use Keynote's "Basic" or "Bold" theme for clean comparison
+
+4. **Slide 4 - Architecture** [1:00-2:00]
+   - Use Keynote's shapes to create flow diagram:
+     - Rectangle: "User Input (Topic)"
+     - Arrow down
+     - Rectangle: "Debate Manager"
+     - Arrows splitting to two rectangles: "Debater A (PRO)" and "Debater B (CON)"
+     - Both arrows pointing to: "Judge Agent"
+     - Arrow to: "Scores & Winner"
+   - Add text boxes for: "Gemini 2.5 Flash", "MCP Tools", "Structured Logging"
+
+5. **Slide 5 - Live Demo Title** [2:00-2:05]
+   - Simple text: "Live Demo"
+   - Then transition to **screen recording** of browser
+
+6. **[Screen Recording]** [2:05-2:45]
+   - **Switch from Keynote to browser** showing demo_client.html
+   - Show the debate running (pre-record this or use live)
+   - Show results with scores
+
+7. **Slide 6 - What I Learned** [2:45-2:55]
+   - 3 bullet points:
+     - Multi-agent coordination needs careful prompts
+     - LLM-as-judge works with explicit rubrics
+     - MCP makes tool integration standardized
+   - Keep it minimal and punchy
+
+8. **Slide 7 - End Screen** [2:55-3:00]
+   - "Check it out on GitHub"
+   - Large text with URL: github.com/marbatis/agora-ai-debate-club
+   - "Built for Kaggle AI Agents Intensive"
+
+### Keynote Tips for Mac:
+
+**Setup:**
+- Open Keynote → "New Document" → Choose "White" or "Basic" theme (clean, professional)
+- Set slide size: Keynote Preferences → "Widescreen (16:9)" for better video format
+- Use consistent fonts: SF Pro Display (macOS native) or Helvetica
+
+**Design Guidelines:**
+- **Keep it minimal** - Max 3 bullet points per slide
+- **Use Keynote's built-in shapes** for the architecture diagram (Insert → Shape → Flowchart)
+- **Consistent colors** - Use blue (#007AFF) for agents, green (#34C759) for success/judge
+- **Animations** - Use "Dissolve" or "Move In" transitions (subtle, not distracting)
+
+**Creating the Architecture Diagram in Keynote:**
+1. Insert → Shape → Rectangle (for components)
+2. Insert → Line → Connection Line (for arrows)
+3. Text Box for labels
+4. Group related shapes (select all → right-click → Group)
+5. Align using Keynote's alignment guides (they appear automatically)
+
+### Recording Workflow:
+
+**Step 1: Create Keynote Presentation**
+- Build all 8 slides as described above
+- Practice advancing slides manually (not auto-advance)
+- Export architecture diagram: Select slide 4 → File → Export To → Images → PNG (save to `assets/screenshots/architecture-diagram.png`)
+
+**Step 2: Record with Keynote's Built-in Feature**
+- Keynote → Play → Record Slideshow (Cmd+Option+R)
+- This records your voiceover + slide advances
+- Speak clearly and advance slides at the timestamps above
+- Stop recording after Slide 5
+
+**Step 3: Record Browser Demo Separately**
+- Use macOS Screenshot tool (Cmd+Shift+5) → "Record Selected Portion"
+- Select just the browser window
+- Record the debate demo (2:05-2:45 section)
+- Save as `demo-recording.mov`
+
+**Step 4: Edit Together in iMovie**
+1. Open iMovie → Create New Movie
+2. Import Keynote recording (File → Export To → Movie → 1080p)
+3. Import browser demo recording
+4. Drag Keynote recording to timeline
+5. Split at 2:00 mark (where you transition to demo)
+6. Insert browser recording
+7. Add final Keynote slides (6-7) after browser demo
+8. Add background music if desired (subtle, low volume)
+9. Export: File → Share → File → 1080p (H.264)
+
+**Alternative: Record Everything in One Take**
+- Start Keynote in full screen (Play → Play Slideshow)
+- Use Cmd+Shift+5 → Record Entire Screen
+- Advance through Keynote slides while speaking
+- When you reach Slide 5, Cmd+Tab to switch to browser
+- Show demo
+- Cmd+Tab back to Keynote for final slides
+- Stop recording
+- This creates one video file (easier but riskier if you make mistakes)
+
+### Export Settings:
+- **Format**: MP4 (H.264)
+- **Resolution**: 1080p (1920×1080)
+- **Frame rate**: 30fps
+- **File size**: Keep under 100MB for Kaggle upload
+- **Audio**: AAC codec, 128kbps
 
 ### Pro Tips:
-- ✅ Record in a quiet room with good lighting
-- ✅ Use a decent microphone (even AirPods are better than laptop mic)
-- ✅ Record each section separately, then edit together (easier to fix mistakes)
-- ✅ Add captions/subtitles for accessibility (YouTube auto-generates these)
-- ✅ Keep mouse movements smooth and purposeful during screen shares
-- ✅ **For the demo**: Either pre-record a debate or use a canned response to avoid API delays
+
+- ✅ **Keynote makes this easy** - Built-in recording, no external tools needed
+- ✅ Record each section separately in Keynote, then stitch in iMovie (easier to fix mistakes)
+- ✅ Use **SF Pro Display** font (native macOS font, looks professional)
+- ✅ **Pre-record the browser demo** - Don't risk API delays during final recording
+- ✅ Keep mouse movements smooth during screen shares
+- ✅ Test audio levels: Keynote → Preferences → Slideshow → Check "Record audio"
+- ✅ Use **Cmd+Option+R** in Keynote to start recording immediately
+- ✅ Add subtle background music from iMovie's library (optional, keep volume low)
+
+### Keynote Shortcuts You'll Need:
+
+- **Cmd+Option+R** - Start recording slideshow
+- **Cmd+.** (period) - Stop recording
+- **Cmd+Shift+5** - macOS screen recording tool
+- **Cmd+Tab** - Switch between apps (Keynote ↔ Browser)
+- **Esc** - Exit Keynote presentation mode
+- **Space** or **→** - Advance to next slide
+- **File → Export To → Movie** - Export final Keynote recording
 
 ### Kaggle Upload:
 - Max file size: **100 MB**
