@@ -1,0 +1,17 @@
+
+# Minimal, expand as needed
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.9.0
+python-dotenv>=1.0.1
+loguru>=0.7.2
+google-generativeai>=0.8.3
+httpx>=0.27.2
+google-adk>=1.18.0
+# Dev/test dependencies
+pytest>=8.3.0
+# Agent/ADK libraries go here when you wire more advanced runtimes:
+# a2a-sdk>=0.5
+# opentelemetry-sdk>=1.26.0
+# opentelemetry-exporter-otlp>=1.26.0
+# beautifulsoup4>=4.12.3

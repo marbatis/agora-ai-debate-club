@@ -1,0 +1,12 @@
+
+%% Mermaid diagram for AGORA
+flowchart TD
+    U[User Topic / Proposition] -->|Context| DM[Debate Manager]
+    DM -->|Turn 1| A[Debater A (pro)]
+    DM -->|Turn 1| B[Debater B (con)]
+    A -->|Claims+Evidence| J[Judge]
+    B -->|Claims+Evidence| J[Judge]
+    J -->|Scores+Verdict| DM
+    DM -->|Summary| U
+    A -->|FactCheck Tool?| T[Search/Citation Tool]
+    B -->|FactCheck Tool?| T
