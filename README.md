@@ -9,6 +9,8 @@
 **Track:** Freestyle | **Course:** 5-Day AI Agents Intensive with Google  
 **Last Updated:** November 22, 2025
 
+**🎥 [Watch the Demo Video](https://youtu.be/jfo-z-_Le2I)** - See AGORA in action!
+
 ---
 
 ## 📖 Table of Contents

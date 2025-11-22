@@ -3,7 +3,8 @@
 **Author:** Marcelo Silveira  
 **Track:** Freestyle  
 **GitHub:** https://github.com/marbatis/agora-ai-debate-club  
-**Course:** 5-Day AI Agents Intensive with Google
+**Course:** 5-Day AI Agents Intensive with Google  
+**🎥 Demo Video:** https://youtu.be/jfo-z-_Le2I
 
 ---
 
