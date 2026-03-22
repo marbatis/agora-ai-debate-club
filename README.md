@@ -11,6 +11,13 @@
 
 **🎥 [Watch the Demo Video](https://youtu.be/jfo-z-_Le2I)** - See AGORA in action!
 
+Multi-agent debate platform exploring structured orchestration, moderation, and evaluation patterns.
+
+## Why this matters
+- Demonstrates how to coordinate specialized agents with clear role boundaries and deterministic turn-taking.
+- Shows practical moderation and scoring patterns for safer, more transparent agentic systems.
+- Provides an evaluation-first template for comparing debate quality instead of relying on anecdotal outputs.
+
 ---
 
 ## 📖 Table of Contents
